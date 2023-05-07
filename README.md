@@ -446,3 +446,47 @@ The findings of this study can inform the development of natural language summar
 ## 5. Conclusion
 
 This study investigated the relationship between the length of input prompts and the length of generated summaries, as well as the impact of incorporating politeness on summarization length and quality. The results indicate that longer input prompts generally result in longer summaries, and polite summarizations tend to be longer than neutral summarizations. Furthermore, the addition of politeness is associated with longer summaries compared to neutral summarizations, and this relationship is statistically significant. The study also explored the similarity between the generated summaries and the original prompts, the sentiment consistency, and the semantic content preservation. The findings provide valuable insights into the impact of politeness on the summarization process and can inform the development of natural language summarization systems.
+
+
+### Examples of Summarization
+#### Example 1.
+Input Paragraph (len: 659)
+```
+Over the past decade, 3D printing technology has revolutionized the manufacturing industry with new possibilities. With 3D printing, manufacturers can create complex objects with intricate designs that would be impossible to produce using traditional manufacturing methods. This technology also allows for the creation of customized products and prototypes on a small scale, reducing waste and costs. The impact of 3D printing on manufacturing has been significant, with companies in various industries adopting the technology to improve their processes. From aerospace to healthcare, 3D printing has opened up new opportunities for innovation and efficiency.
+```
+Neutral Instructions Summarization (len: 370)
+```
+3D printing has revolutionized the manufacturing industry by allowing for the creation of complex objects with intricate designs, customized products, and prototypes on a small scale, reducing waste and costs. This technology has had a significant impact on various industries, from aerospace to healthcare, by opening up new opportunities for innovation and efficiency.
+```
+Polite Instructions Summarization (len: 585)
+```
+The past decade has seen a revolution in the manufacturing industry with the advent of 3D printing technology. This technology enables the creation of complex objects with intricate designs that are impossible to produce using traditional manufacturing methods. It also allows for the production of customized products and prototypes on a small scale, reducing waste and costs. 3D printing has had a significant impact on manufacturing, with companies in various industries adopting the technology to improve their processes and open up new opportunities for innovation and efficiency.
+```
+
+#### Example 2.
+Input Paragraph (len: 793)
+```
+Television programming has undergone a significant transformation to cater to a diverse range of interests. Over the years, television networks have realized the importance of creating content that appeals to a variety of audiences. As a result, we now see an array of programs that cater to different age groups, ethnicities, and gender identities. From reality shows, dramas, and news programs to documentaries and sitcoms, there is something for everyone. This shift has not only made television an essential source of entertainment, but it has also opened up opportunities for underrepresented communities to see themselves reflected on screen. With the rise of streaming services and online platforms, this trend is likely to continue, providing a platform for diverse voices to be heard.
+```
+Neutral Instructions Summarization (len: 428)
+```
+Television programming has transformed to cater to diverse interests, with networks creating content for different age groups, ethnicities, and gender identities. This shift has made TV an essential source of entertainment and opened up opportunities for underrepresented communities to see themselves on screen. Streaming services and online platforms are likely to continue this trend, providing a platform for diverse voices.
+```
+Polite Instructions Summarization (len: 477)
+```
+Television programming has evolved to cater to a diverse range of interests, with networks creating content that appeals to different age groups, ethnicities, and gender identities. This shift has made television an essential source of entertainment and opened up opportunities for underrepresented communities to see themselves reflected on screen. Streaming services and online platforms are likely to continue this trend, providing a platform for diverse voices to be heard.
+```
+
+#### Example 3.
+Input Paragraph (len: 837)
+```
+The integration of technology into the classroom has revolutionized the way educators teach and students learn. Technology has enabled educators to create interactive and engaging lessons that facilitate hands-on learning and cater to different learning styles. It has also made it possible for students to access educational resources beyond the classroom, such as online libraries and educational videos. Moreover, technology has facilitated communication between teachers and students, allowing for real-time feedback and personalized instruction. While some critics argue that technology can be a distraction and lead to a lack of face-to-face interaction, others believe that when used appropriately, technology can enhance the educational experience and prepare students for the digital world they will encounter outside of school.
+```
+Neutral Instructions Summarization (len: 354)
+```
+Technology has transformed education by enabling interactive and personalized learning, access to educational resources beyond the classroom, and real-time feedback between teachers and students. Critics argue that technology can be a distraction, but supporters believe it enhances the educational experience and prepares students for the digital world.
+```
+Polite Instructions Summarization (len: 445)
+```
+Technology has transformed the way teachers teach and students learn by enabling interactive and personalized instruction, facilitating access to educational resources beyond the classroom, and improving communication between teachers and students. While some argue that technology can be a distraction and hinder face-to-face interaction, others believe that it can enhance the educational experience and prepare students for the digital world.
+```
