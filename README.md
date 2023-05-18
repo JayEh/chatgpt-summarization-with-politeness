@@ -1,3 +1,7 @@
+*Author's Comments:*
+The setup for this project was to use ChatGPT API to synthesize a dataset of paragraphs, on various topics, and then to summarize those paragraphs. The nuance here is **not** to ask for a polite summarization, but to **ask politely** for a summarization and see how it impacts the result. The exact prompt is provided in the analysis below. I'm not sure if ChatGPT quite got that nuance about the test setup but the autonomous analysis capabilities remain impressive. All text below was written by ChatGPT, including the code and charts. I performed some collation on the results but did not alter the analysis provided by ChatGPT. I hope you enjoy the read and this demonstration inspires you to take the idea even further.
+
+
 # Analyzing the differences in output between neutral and polite summarization requests with ChatGPT Code Interpreter [Alpha].
 ![234151926-8db2eae0-d85a-4e9a-adbd-2660265e8c0b](https://user-images.githubusercontent.com/20936780/236697702-09ab34e2-3f0e-46a0-a92c-8562a8f8fe58.png)
 
